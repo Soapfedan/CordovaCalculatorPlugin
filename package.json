@@ -1,12 +1,35 @@
 {
-    "name": "it.sixtema.calculatorplugintest",
-    "displayName": "CordovaCalculatorPlugin",
-    "version": "1.0.0",
-    "description": "A sample Apache Cordova application that responds to the deviceready event.",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Apache Cordova Team",
-    "license": "Apache-2.0"
+  "name": "calculator-plugin-test",
+  "version": "0.0.1",
+  "description": "An Android Cordova plugin that allows users to display simple Toast messages at the bottom of the screen.",
+  "cordova": {
+    "id": "calculator-plugin-test",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soapfedan/CordovaCalculatorPlugin.git"
+  },
+  "keywords": [
+    "Calculator",
+    "Notification",
+    "Message",
+    "Alert",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Federico Simonetti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Soapfedan/CordovaCalculatorPlugin/issues"
+  },
+  "homepage": "https://github.com/Soapfedan/CordovaCalculatorPlugin"
 }
